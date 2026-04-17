@@ -98,34 +98,3 @@ cp .env.example .env
 npm run dev
 ```
 
-e_api_key
-```
-
-## API Documentation
-
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/me` - Get current user
-
-### Listings
-- `POST /api/listings` - Create listing
-- `GET /api/listings` - Get listings (with geospatial query)
-- `POST /api/listings/:id/claim` - Claim listing
-- `POST /api/listings/analyze-image` - AI food analysis
-
-### Admin
-- `GET /api/analytics/impact` - Get impact statistics
-- `GET /api/users/ngos` - Get NGO verification queue
-
-## Development Roadmap
-
-See `.kiro/specs/food-surplus/tasks.md` for detailed implementation tasks.
-
-## License
-
-MIT
-
-## Contributing
-
-Contributions welcome! Please read the contributing guidelines first.
