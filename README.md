@@ -98,37 +98,7 @@ cp .env.example .env
 npm run dev
 ```
 
-4. **Access the application**
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:5000
-
-## Environment Variables
-
-### Backend (.env)
-```
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLAUDE_API_KEY=your_claude_api_key
-GOOGLE_PLACES_API_KEY=your_google_api_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_token
-TWILIO_PHONE_NUMBER=your_twilio_phone
-EMAIL_HOST=smtp.gmail.com
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
-FRONTEND_URL=http://localhost:5173
-```
-
-### Frontend (.env)
-```
-VITE_API_URL=http://localhost:5000
-VITE_SOCKET_URL=http://localhost:5000
-VITE_MAPBOX_TOKEN=your_mapbox_token
-VITE_GOOGLE_PLACES_API_KEY=your_google_api_key
+e_api_key
 ```
 
 ## API Documentation
